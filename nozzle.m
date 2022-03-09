@@ -3,9 +3,10 @@ clear; close all; clc;
 %% Nakuja N-2ロケットの値
 % 固体推進剤 KNSB
 % Pc = 1.31; %[MPa] Nakkaのグラフの値。OpenMotorでも同様の値(KNSB)。
-% rstar = 12mm, re = 50mm より e = 17.4
 % k = 1.177: Propep3の計算値(KNSB), O:F=65:35
 % pb=0.1013MPa 大気圧
+% rstar = 12mm, re = 30mm より e = 6.25
+
 
 %% LE-7A（H2Aロケット１段目）の値
 % 液体推進剤 LOX/LH2
